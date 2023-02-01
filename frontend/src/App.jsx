@@ -1,12 +1,14 @@
-import Home from "./pages/Home";
-
-import "./App.css";
+import "./App.scss";
+import Header from "./components/Header";
+import Card from "./components/Card";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-      <p>coucou</p>
+      <Header />
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 }
