@@ -1,0 +1,50 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 60px;
+
+  & > div {
+    margin: 1rem;
+    width: 60%;
+  }
+
+  label {
+    font-weight: bold;
+    color: whitesmoke;
+  }
+
+  input,
+  button {
+    padding: 0.5em;
+    font-size: 1em;
+  }
+
+  input {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  button {
+    margin-top: 1em;
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    width: 40%;
+    cursor: pointer;
+  }
+}
+button {
+  padding: 0.5em;
+  font-size: 1em;
+  margin-top: 1em;
+  background-color: whitesmoke;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  width: 40%;
+  cursor: pointer;
+}

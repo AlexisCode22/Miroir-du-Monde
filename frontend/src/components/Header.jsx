@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import burger from "../assets/menu.svg";
 import croix from "../assets/croix.retour.png";
-import login from "../assets/login.png";
+import connexion from "../assets/login.png";
 
 function Header() {
   const [buttonBurger, setButtonBurger] = useState(false);
@@ -18,9 +18,9 @@ function Header() {
           )}
         </button>
         <h1>Miroir du monde</h1>
-        <Link to="/login">
+        <Link to="/connexion">
           <button type="button">
-            <img src={login} alt="login" />
+            <img src={connexion} alt="connexion" />
           </button>
         </Link>
       </header>
